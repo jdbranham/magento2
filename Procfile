@@ -1,1 +1,1 @@
-web: php -S 127.0.0.1:$PORT -t ./pub/ ./phpserver/router.php
+web: vendor/bin/heroku-php-apache2 pub/
